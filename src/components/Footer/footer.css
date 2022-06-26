@@ -1,0 +1,22 @@
+footer {
+    background-color: #ffffff;
+    padding: 1px 0 0;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #2e5070;
+    padding-left: 94px;
+  }
+  
+  .footer__bottom {
+    min-height: 50px;
+    background-color: #534630;
+    color: rgb(226, 226, 226);
+  }
+
+  .data-source {
+    min-height: 50px;
+    color: rgb(54, 54, 54);
+  }

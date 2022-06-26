@@ -1,0 +1,47 @@
+.home-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-sizing: border-box;
+    margin: 16px 0px 24px;
+    align-items: center;
+}
+
+.home-wrapper .link-url {
+    text-decoration: none;
+}
+
+.home-wrapper .box-overlay {
+    background-image: url('../../assets/image/movie-background.jpg');
+    width: 300px;
+    height: 364px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);
+    border-radius: 8px;
+  }
+
+  .home-wrapper .box-overlay  .text-overlay {
+    background-color: rgba(46, 46, 46, 0.678);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    text-align: center;
+    border-radius: 8px;
+    transition: all 0.8s;
+  }
+
+  .home-wrapper .box-overlay  .text-overlay .text{
+    color: white;
+    font-size: 36px;
+  }
+  
+  .home-wrapper .box-overlay  .text-overlay:hover {
+    opacity: 0;
+  }
+  

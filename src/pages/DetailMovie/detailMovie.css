@@ -1,0 +1,32 @@
+.detail-wrapper {
+    max-width: 1180px !important;
+    align-items: left;
+    justify-content: left;
+}
+
+.detail-wrapper .image-wrapper {
+    display: flex;
+}
+
+.detail-wrapper .image-wrapper img {
+    width: 98%;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0px 2px 12px 6px rgb(210, 210, 210);
+}
+
+.detail-wrapper .information-movie .bread-crumb{
+    font-size: 18px;
+}
+
+.detail-wrapper .information-movie .link-movie{
+    text-decoration: none;
+}
+
+.detail-wrapper .information-movie p{
+    margin: 4px 0 0;
+}
+
+.detail-wrapper .information-desc{
+    text-align: justify;
+}

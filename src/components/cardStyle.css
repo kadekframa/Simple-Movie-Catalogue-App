@@ -1,0 +1,53 @@
+.component-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 346px;
+    box-sizing: border-box;
+    margin: 16px 0px 24px;
+}
+
+.img-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px 2px rgb(174, 174, 174);
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 230px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-wrapper .movie-rating {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    background-color: rgb(71, 58, 42);
+    padding: 4px 10px;
+    border-radius: 0 6px 6px 0;
+    top: 184px;
+    left: -8px;
+}
+
+.component-wrapper a {
+    text-decoration: none;
+}
+
+.component-wrapper .movie-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 10px 0 0;
+    color: black;
+}
+
+.component-wrapper .release-date {
+    font-size: 15px;
+    text-align: justify;
+    text-transform: capitalize;
+    margin: 0;
+}
