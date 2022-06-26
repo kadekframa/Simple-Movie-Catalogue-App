@@ -77,9 +77,29 @@ const createTopRatedList = (dataMovie) => {
     })
 }
 
+const createMovieSearchResultsList = (dataMovie) => {
+  return dataMovie.map(movie => {
+      return (
+        <div className='col-md-4 d-flex align-items-start justify-content-center'>
+          <MovieCard
+              key={movie.id}
+              id={movie.id}
+              title={movie.title}
+              description={movie.overview}
+              release_date={movie.release_date}
+              vote_average={movie.vote_average}
+              image={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
+              url='/movie-detail'
+          />
+        </div>
+      )
+  })
+}
+
 export {
     createNowPlayingList,
     createUpcomingList,
     createPopularList,
-    createTopRatedList
+    createTopRatedList,
+    createMovieSearchResultsList
 }

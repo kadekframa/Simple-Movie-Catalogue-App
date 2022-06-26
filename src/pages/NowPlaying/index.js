@@ -21,6 +21,7 @@ const NowPlaying = () => {
   })
 
   const nowPlayingList = createNowPlayingList(dataNowPlaying);
+  
   return (
     <main className='container'>
       <div className='text-center mb-4'>
