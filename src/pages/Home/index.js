@@ -69,7 +69,7 @@ const Home = () => {
       {/* Search components */}
       <Form>
         <FormGroup className='row srac'>
-          <Input className='mt-5' type="text" placeholder='Search Movie...' value={keyword} onChange={e => setKeyword(e.target.value)}/>
+          <Input className='mt-5' type="text" placeholder='Input Keyword for Search Movie...' value={keyword} onChange={e => setKeyword(e.target.value)}/>
           <Button color="success" className="my-4" onClick={onSearch}>Search Movie</Button>
         </FormGroup>
       </Form>
