@@ -68,14 +68,14 @@ const Home = () => {
       
       {/* Search components */}
       <Form>
-        <FormGroup className='row'>
+        <FormGroup className='row srac'>
           <Input className='mt-5' type="text" placeholder='Search Movie...' value={keyword} onChange={e => setKeyword(e.target.value)}/>
           <Button color="success" className="my-4" onClick={onSearch}>Search Movie</Button>
         </FormGroup>
       </Form>
-
+      
       <div className='text-center mb-4'>
-        <h2 className='fw-normal mt-5'>Your Search Movie Results</h2>
+        <h2 className='fw-normal mt-5'>Here's Your Search Movie Results</h2>
       </div>
 
       <div className='row'>
